@@ -1,0 +1,114 @@
+.ind-main-bnr{
+    background-image: url("../img/Group\ 1414592180.png");   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pportfolio_menu_text{
+  color: white;
+  text-align: center;
+}
+.buts2{  
+  background-color: #00334B;
+  color: #FFFFFF;
+}
+.buts{
+    background-color: #fff
+    }
+.but,.buts{
+    border-radius: 50px!important;
+    padding: 10px 25px!important;
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+ 
+    line-height: 28px;
+    letter-spacing: 0.04em;
+}
+
+  @media only screen and (min-width: 600px){
+    .pportfolio_menu_text{
+      font-size: 20px;
+    }
+    .buts2{
+        margin-left: 20px;
+       
+    }
+
+    .buts{
+        margin-left: 88px;
+    }
+    .menu-check{
+      padding: 50px 0px;
+      
+      
+    }
+    .pportfolio_menu_text{
+      margin-left: 43px;
+    }
+    .header_button{
+      display: none;
+    }
+
+    .header_button2{
+      padding: 50px 0;
+      
+    }
+    .header_button button{
+      margin-left: 20px;
+    }
+    .header_button3{
+      display: none;
+    }
+    .header_button2 .buts2:hover{
+      color: #fff!important;
+    }
+    .nav > li > a:focus, .nav > li > a:hover {
+      text-decoration: none;
+      background: none!important;
+      color: white!important;
+    }
+   
+  }
+@media only screen and (max-width: 600px) {
+  .south_south{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+  }
+  .header_button{
+    display: block;
+  }
+  .header_button button{
+    display: inline-block!important;
+  }
+  .buts2:hover{
+    color: white;
+  }
+  .buts{
+    margin-left: -25px;
+
+  }
+  
+  .header_button{
+    
+  padding: 11px 28px;
+  }
+  .header_button:nth-child(1){
+    float: right;
+  }
+  .header_button:nth-child(2){
+    float: left;
+  }
+  .header_button {
+    padding:  0;
+    margin-left: 20px;
+  }
+  #myNavbar{
+    padding-bottom: 27px;
+  }
+  .header_button2{
+    display: none;
+  }
+  
+}
